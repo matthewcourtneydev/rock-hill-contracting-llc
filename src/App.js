@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.scss";
+import NavbarLg from "./components/navbar-lg/navbar-lg";
+import NavbarSm from "./components/navbar-sm/navbar-sm";
+import NavMenu from "./components/nav-menu/nav-menu";
+import Footer from "./components/footer/footer";
+import Home from "./pages/home/home";
 
 function App() {
+  const [isNavMenuOpen, toggleNavMenu] = useState(false);
+  const [currentPage, setCurrentPage] = useState("home")
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavbarLg />
+      <NavbarSm isNavMenuOpen={isNavMenuOpen} currentPage={currentPage} setCurrentPage={setCurrentPage} toggleNavMenu={toggleNavMenu} />
+      {isNavMenuOpen ? <NavMenu /> : <></>}
+      <Home />
+      <Footer />
     </div>
   );
 }

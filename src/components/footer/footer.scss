@@ -1,0 +1,129 @@
+#footer {
+  background-color: blue;
+  padding: 5svh 10svw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2svh;
+  padding-bottom: 150px;
+
+  section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5svh;
+
+    h4 {
+      margin-bottom: 3svh;
+      font-size: 20px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 900;
+      font-style: normal;
+    }
+
+    .container {
+      display: flex;
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      margin-bottom: 20px;
+      height: fit-content;
+      vertical-align: middle;
+
+      p {
+        max-width: 150px;
+        margin-left: 5svw;
+        margin-bottom: 2svh;
+      }
+
+      span {
+        background-color: white;
+        color: black;
+        padding: 17px;
+        min-width: 50px;
+        min-height: 50px;
+        max-width: 50px;
+        max-height: 50px;
+        margin-right: 20px;
+        border-radius: 50%;
+      }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      input, textarea {
+        background: none;
+        border: none;
+        border-bottom: solid white 1px;
+        line-height: 25px;
+        font-size: 20px;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        margin-bottom: 10px;
+      }
+
+      .submit {
+        border: none;
+        background: none;
+        background-color: white;
+        border-radius: 25px;
+        padding: 10px;
+        margin-top: 2svh;
+        font-family: "Oswald", sans-serif;
+        font-size: 17px;
+      }
+    }
+
+    ul {
+      list-style: none;
+
+      a {
+        color: inherit;
+      }
+
+      li {
+        margin-bottom: 25px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .back-to-top {
+    background: none;
+    border: none;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+  }
+
+  .ownership {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: black;
+    padding: 4svh 10svw;
+    font-family: "Oswald", sans-serif;
+  }
+}
+
+// Desktop
+@media only screen and (min-height: 700px) and (min-width: 1100px) {
+}

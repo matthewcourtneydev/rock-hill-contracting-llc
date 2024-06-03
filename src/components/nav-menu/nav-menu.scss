@@ -1,0 +1,31 @@
+#nav-menu {
+    background-color: yellow;
+    padding: 5svh 10svw;
+    max-height: 100svh;
+    min-height: 100svh;
+    max-width: 100svw;
+    min-width: 100svw;
+    padding-top: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+
+    ul {
+        list-style: none;
+
+        li {
+            font-size: 25px;
+            margin: 10px 0px
+        }
+    }
+}
+
+// Desktop
+@media only screen and (min-height: 700px) and (min-width: 1100px) {
+    #nav-menu {
+        display: none;
+    }
+    }

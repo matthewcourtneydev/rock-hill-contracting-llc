@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100svh;
+  min-width: 100svw;
+  background-color: grey;
+  overflow: hidden;
+}
+
+.page {
+  min-width: 100svw;
+  min-height: 100svh;
+  background-color: white;
+  overflow-x: scroll;
+}
