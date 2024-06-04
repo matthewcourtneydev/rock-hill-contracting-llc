@@ -1,11 +1,12 @@
 #footer {
-  background-color: blue;
+  background-color: #353A47;
   padding: 5svh 10svw;
-  color: white;
+  color: rgb(249, 255, 255);
   display: flex;
   flex-direction: column;
   gap: 2svh;
   padding-bottom: 150px;
+  position: relative;
 
   section {
     display: flex;
@@ -36,11 +37,12 @@
       }
 
       span {
-        background-color: white;
-        color: black;
-        padding: 17px;
-        min-width: 50px;
-        min-height: 50px;
+        background-color: #885A5A;
+        color: rgb(249, 255, 255);
+        font-size: 20px;
+        padding: 20px;
+        min-width: 60px;
+        min-height: 60px;
         max-width: 50px;
         max-height: 50px;
         margin-right: 20px;
@@ -63,25 +65,27 @@
       input, textarea {
         background: none;
         border: none;
-        border-bottom: solid white 1px;
+        border-bottom: solid rgb(249, 255, 255) 1px;
         line-height: 25px;
         font-size: 20px;
-        color: white;
+        color: rgb(249, 255, 255);
         font-family: "Roboto", sans-serif;
         font-weight: 100;
         font-style: normal;
         margin-bottom: 10px;
       }
 
+
       .submit {
         border: none;
         background: none;
-        background-color: white;
+        background-color: #885A5A;
         border-radius: 25px;
         padding: 10px;
         margin-top: 2svh;
         font-family: "Oswald", sans-serif;
         font-size: 17px;
+        color: white;
       }
     }
 
@@ -110,17 +114,18 @@
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: normal;
-    color: white;
+    color: rgb(249, 255, 255);
   }
 
   .ownership {
-    background-color: white;
-    position: fixed;
+    background-color: rgb(249, 255, 255);
+    position: absolute;
     bottom: 0;
     left: 0;
     color: black;
     padding: 4svh 10svw;
     font-family: "Oswald", sans-serif;
+    text-align: center;
   }
 }
 

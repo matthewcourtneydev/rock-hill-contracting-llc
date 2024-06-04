@@ -1,6 +1,6 @@
 #home-page {
     header {
-        background-color: blue;
+        background-color: #353A47;
         width: 100%;
         padding: 5svh 10svw;
         padding-top: 100px;
@@ -11,7 +11,7 @@
         h1 {
             display: flex;
             flex-direction: column;
-            color: white;
+            color: rgb(249, 255, 255);
             font-size: 65px;
             line-height: 65px;
 
@@ -21,7 +21,7 @@
         }
 
         p {
-            color: white;
+            color: rgb(249, 255, 255);
             font-family: "Roboto", sans-serif;
             margin-top: 30px;
             font-size: 15px;
@@ -31,8 +31,8 @@
 
         .help {
             background: none;
-            color: white;
-            border: solid 1px white;
+            color: rgb(249, 255, 255);
+            border: solid 1px #F7C1BB;
             padding: 10px 20px;
             margin-top: 30px;
             font-family: "Oswald", sans-serif; 
@@ -44,10 +44,10 @@
     }
 
     .get-started, .services, .testimonials, .mission {
-        background-color: blue;
+        background-color: #353A47;
         padding: 5svh 10svw;
         padding-top: 5svh;
-        color: white;
+        color: rgb(249, 255, 255);
     
         h2 {
             font-size: 45px;
@@ -68,7 +68,7 @@
             
         .opening {
             font-size: 18px;
-            color: pink;
+            color: #F7C1BB;
             margin-bottom: 0px;
             line-height: 20px;
             font-family: "Roboto", sans-serif;
@@ -85,8 +85,8 @@
 
         .get-started-btn {
             background: none;
-            color: white;
-            border: solid 1px white;
+            color: rgb(249, 255, 255);
+            border: solid 1px #F7C1BB;
             padding: 10px 20px;
             margin-top: 30px;
             font-family: "Oswald", sans-serif;
@@ -95,8 +95,13 @@
     }
 
     .services, .mission {
-        background-color: white;
+        background-color: rgb(249, 255, 255);
         color: black;
+
+        .opening {
+            color: #885A5A;
+            font-weight: 300;
+        }
 
         .service-btn, .mission-btn {
             display: flex;
@@ -106,7 +111,7 @@
             .img {
                 min-height: 100px;
                 min-width: 100px;
-                background-color: blue;
+                background-color: #353A47;
                 border-radius: 50%;
             }
 

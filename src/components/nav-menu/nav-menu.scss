@@ -1,5 +1,5 @@
 #nav-menu {
-    background-color: yellow;
+    background-color: #353A47;
     padding: 5svh 10svw;
     max-height: 100svh;
     min-height: 100svh;
@@ -12,12 +12,14 @@
     right: 0;
     bottom: 0;
     z-index: 10;
+    color: rgb(249, 255, 255);
+    font-family: "Oswald", sans-serif;
 
     ul {
         list-style: none;
 
         li {
-            font-size: 25px;
+            font-size: 30px;
             margin: 10px 0px
         }
     }
