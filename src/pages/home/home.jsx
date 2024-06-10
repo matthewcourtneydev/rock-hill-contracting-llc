@@ -3,14 +3,13 @@ import "./home.scss";
 import HomeCarousel from "../../components/home-carousel/home-carousel";
 import roofing from "../../imgs/roofing.webp";
 import exterior from "../../imgs/exterior.jpeg";
-import patio from "../../imgs/patio.jpeg"
+import patio from "../../imgs/patio.jpeg";
 import NavbarLg from "../../components/navbar-lg/navbar-lg";
 
 const Home = (props) => {
   return (
     <div className="page" id="home-page">
       <header>
-      <NavbarLg isNavMenuOpen={props.isNavMenuOpen} currentPage={props.currentPage} setCurrentPage={props.setCurrentPage} toggleNavMenu={props.toggleNavMenu}/>
         <h1>
           <span>Precision,</span>
           <span>Integrity,</span>
@@ -73,33 +72,33 @@ const Home = (props) => {
             <div className="img"></div>
             <h3>Precision</h3>
             <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. A eveniet
-            ipsam soluta. Similique natus rerum ipsum dolorem delectus
-            repudiandae iusto!
-          </p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+              eveniet ipsam soluta. Similique natus rerum ipsum dolorem delectus
+              repudiandae iusto!
+            </p>
           </div>
-          
+
           <div className="mission-btn">
             <div className="img"></div>
             <h3>Integrity</h3>
             <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. A eveniet
-            ipsam soluta. Similique natus rerum ipsum dolorem delectus
-            repudiandae iusto!
-          </p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+              eveniet ipsam soluta. Similique natus rerum ipsum dolorem delectus
+              repudiandae iusto!
+            </p>
           </div>
 
           <div className="mission-btn">
             <div className="img"></div>
             <h3>Excellence</h3>
             <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. A eveniet
-            ipsam soluta. Similique natus rerum ipsum dolorem delectus
-            repudiandae iusto!
-          </p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
+              eveniet ipsam soluta. Similique natus rerum ipsum dolorem delectus
+              repudiandae iusto!
+            </p>
           </div>
 
-<div className="img-bg"></div>
+          <div className="img-bg"></div>
         </div>
       </section>
     </div>

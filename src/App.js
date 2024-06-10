@@ -7,6 +7,8 @@ import Footer from "./components/footer/footer";
 import Home from "./pages/home/home";
 import About from "./pages/about/about";
 import Interior from "./pages/interior/interior"
+import Exterior from "./pages/exterior/exterior";
+import Patio from "./pages/patios/patios";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -16,10 +18,13 @@ function App() {
     <div className="App">
       <NavbarSm isNavMenuOpen={isNavMenuOpen} currentPage={currentPage} setCurrentPage={setCurrentPage} toggleNavMenu={toggleNavMenu} />
       {isNavMenuOpen ? <NavMenu toggleNavMenu={toggleNavMenu} /> : <></>}
+      <NavbarLg isNavMenuOpen={isNavMenuOpen} currentPage={currentPage} setCurrentPage={setCurrentPage} toggleNavMenu={toggleNavMenu}/>
       <Routes>
         <Route path={"/"} element={<Home isNavMenuOpen={isNavMenuOpen} currentPage={currentPage} setCurrentPage={setCurrentPage} toggleNavMenu={toggleNavMenu}/>}/>
         <Route path={"/about"} element={<About/>} />
         <Route path={"/interior"} element={<Interior/>} />
+        <Route path={"/exterior"} element={<Exterior/>} />
+        <Route path={"/patios"} element={<Patio/>} />
       </Routes>
       
       <Footer />

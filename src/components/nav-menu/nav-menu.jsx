@@ -15,7 +15,8 @@ const NavMenu = (props) => {
                 <li className="nav-menu-item" onClick={() => changePage("/")}>Home</li>
                 <li className="nav-menu-item" onClick={() => changePage("/about")}>About</li>
                 <li className="nav-menu-item" onClick={() => changePage("/interior")}>Interior Services</li>
-                <li className="nav-menu-item">Exterior Services</li>
+                <li className="nav-menu-item" onClick={() => changePage("/exterior")}>Exterior Services</li>
+                <li className="nav-menu-item" onClick={() => changePage("/patios")}>Patios and Porches</li>
                 <li className="nav-menu-item">Before and After</li>
                 <li className="nav-menu-item">Testimonials</li>
             </ul>

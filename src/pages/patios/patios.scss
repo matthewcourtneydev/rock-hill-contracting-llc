@@ -1,4 +1,4 @@
-#interior-page {
+#patios-page {
     background-color: #353a47;
     color: white;
     padding: 5svh 10svw;
@@ -124,7 +124,7 @@
 
 /* ipad Mini Portrait */
 @media only screen and (min-width: 768px) {
-    #interior-page {
+    #patios-page {
       position: relative;
   
       h1 {
@@ -243,25 +243,25 @@
   }
   
   @media only screen and (min-width: 1224px) {
-      #interior-page {
-          padding: 10svh 20svw;
+      #patios-page {
+          padding: 15svh 20svw;
           h1 {
-              font-size: 75px;
+              font-size: 80px;
+              line-height: 85px;
               max-width: 30%;
-              
             }
             .first-paragraph {
-              max-width: 25%;
-              min-width: 25%;
+              max-width: 30%;
+              min-width: 30%;
               right: 20svw;
               font-size: 10px;
-              top: 50px;
+              top: 15svh;
               line-height: 13px;
             }
   
             .get-started-btn {
               right: 20svw;
-              top: 180px;
+              top: 32svh;
             }
   
             img {
@@ -286,7 +286,7 @@
               max-height: 350px;
               position: absolute;
               right: 22svw;
-              top: 120svh;
+              top: 90svh;
             }
   
             .difference {

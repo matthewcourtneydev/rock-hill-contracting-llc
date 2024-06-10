@@ -1,4 +1,4 @@
-#interior-page {
+#exterior-page {
     background-color: #353a47;
     color: white;
     padding: 5svh 10svw;
@@ -124,7 +124,7 @@
 
 /* ipad Mini Portrait */
 @media only screen and (min-width: 768px) {
-    #interior-page {
+    #exterior-page {
       position: relative;
   
       h1 {
@@ -243,7 +243,7 @@
   }
   
   @media only screen and (min-width: 1224px) {
-      #interior-page {
+      #exterior-page {
           padding: 10svh 20svw;
           h1 {
               font-size: 75px;
