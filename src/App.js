@@ -5,16 +5,23 @@ import NavbarSm from "./components/navbar-sm/navbar-sm";
 import NavMenu from "./components/nav-menu/nav-menu";
 import Footer from "./components/footer/footer";
 import Home from "./pages/home/home";
+import About from "./pages/about/about";
+import Interior from "./pages/interior/interior"
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   const [isNavMenuOpen, toggleNavMenu] = useState(false);
   const [currentPage, setCurrentPage] = useState("home")
   return (
     <div className="App">
-      <NavbarLg />
       <NavbarSm isNavMenuOpen={isNavMenuOpen} currentPage={currentPage} setCurrentPage={setCurrentPage} toggleNavMenu={toggleNavMenu} />
-      {isNavMenuOpen ? <NavMenu /> : <></>}
-      <Home />
+      {isNavMenuOpen ? <NavMenu toggleNavMenu={toggleNavMenu} /> : <></>}
+      <Routes>
+        <Route path={"/"} element={<Home isNavMenuOpen={isNavMenuOpen} currentPage={currentPage} setCurrentPage={setCurrentPage} toggleNavMenu={toggleNavMenu}/>}/>
+        <Route path={"/about"} element={<About/>} />
+        <Route path={"/interior"} element={<Interior/>} />
+      </Routes>
+      
       <Footer />
     </div>
   );

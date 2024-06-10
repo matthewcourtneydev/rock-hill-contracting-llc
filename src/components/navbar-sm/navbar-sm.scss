@@ -42,6 +42,20 @@
     }
 }
 
+/* ipad Mini Portrait */
+@media only screen and (min-width: 768px) {
+    #nav-sm {
+        display: none;
+    }
+}
+
+/* ipad Mini Landscape */
+@media only screen and (width:1024px) {
+    #nav-sm {
+        display: none;
+    }
+}
+
 // Desktop
 @media only screen and (min-height: 700px) and (min-width: 1100px) {
 #nav-sm {
