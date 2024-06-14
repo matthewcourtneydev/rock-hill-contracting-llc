@@ -12,13 +12,13 @@ const NavMenu = (props) => {
     return (
         <section id="nav-menu" className="nav-menu">
             <ul>
-                <li className="nav-menu-item" onClick={() => changePage("/")}>Home</li>
-                <li className="nav-menu-item" onClick={() => changePage("/about")}>About</li>
-                <li className="nav-menu-item" onClick={() => changePage("/interior")}>Interior Services</li>
-                <li className="nav-menu-item" onClick={() => changePage("/exterior")}>Exterior Services</li>
-                <li className="nav-menu-item" onClick={() => changePage("/patios")}>Patios and Porches</li>
-                <li className="nav-menu-item">Before and After</li>
-                <li className="nav-menu-item">Testimonials</li>
+                <li className="nav-menu-item" onClick={() => changePage("/")}>HOME</li>
+                <li className="nav-menu-item" onClick={() => changePage("/about")}>ABOUT</li>
+                <li className="nav-menu-item" onClick={() => changePage("/interior")}>INTERIOR SERVICES</li>
+                <li className="nav-menu-item" onClick={() => changePage("/exterior")}>EXTERIOR SERVICES</li>
+                <li className="nav-menu-item" onClick={() => changePage("/patios")}>PATIOS AND PORCHES</li>
+                <li className="nav-menu-item">BEFORE AND AFTER</li>
+                <li className="nav-menu-item">TESTIMONIALS</li>
             </ul>
         </section>
     );

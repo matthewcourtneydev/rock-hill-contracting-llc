@@ -3,7 +3,7 @@ import "./patios.scss";
 import drywall from "../../imgs/drywall.webp";
 import hardscape from "../../imgs/hardscape.jpeg";
 import patio from "../../imgs/patio.jpeg";
-import deck from "../../imgs/deck.jpeg"
+import deck from "../../imgs/deck.jpeg";
 
 const Patio = () => {
   return (
@@ -75,9 +75,7 @@ const Patio = () => {
             <span className="bullet-content">
               <h4>Patios</h4>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam molestiae vitae omnis repellendus aliquid nesciunt
-                quis itaque totam nihil error?
+              We offer expert patio services, creating stylish and functional outdoor retreats with high-quality materials and personalized designs.
               </p>
             </span>
           </div>
@@ -86,9 +84,7 @@ const Patio = () => {
             <span className="bullet-content">
               <h4>Porches</h4>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam molestiae vitae omnis repellendus aliquid nesciunt
-                quis itaque totam nihil error?
+              We provide custom porch services, enhancing your home's entrance with beautifully designed and durable structures tailored to your needs.
               </p>
             </span>
           </div>
@@ -97,9 +93,7 @@ const Patio = () => {
             <span className="bullet-content">
               <h4>Decks</h4>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam molestiae vitae omnis repellendus aliquid nesciunt
-                quis itaque totam nihil error?
+               We offer expert deck services, crafting versatile and durable outdoor spaces with high-quality materials and innovative designs.
               </p>
             </span>
           </div>

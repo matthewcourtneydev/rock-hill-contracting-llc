@@ -17,4 +17,63 @@
   min-height: 100svh;
   background-color: rgb(249, 255, 255);
   overflow-x: scroll;
+
+  .opening {
+    font-size: 16px;
+    color: #885a5a;
+    margin-bottom: 0px;
+    line-height: 20px;
+    font-family: "Oswald", sans-serif;
+    margin-top: 15px;
+    font-size: 17px;
+    letter-spacing: 0.7px;
+    font-weight: 300;
+    line-height: 20px;
+    font-style: italic;
+  }
+
+  .content-p {
+    line-height: 22px;
+    letter-spacing: .5px;
+    word-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 25px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(102, 102, 102);
+}
+
+  .sub-header {
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    max-width: 70svw;
+    font-family: "Oswald", sans-serif;
+}
+
+.get-started-btn {
+  background: none;
+  color: rgb(249, 255, 255);
+  border: solid 1px #f7c1bb;
+  padding: 10px 20px;
+  margin-top: 30px;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+}
+}
+
+
+/* ipad Mini Portrait */
+@media only screen and (min-width: 768px) {
+  .page {
+    .content-p {
+      font-size: 10px;
+      line-height: 12px;
+      text-align: left;
+    }
+  }
 }

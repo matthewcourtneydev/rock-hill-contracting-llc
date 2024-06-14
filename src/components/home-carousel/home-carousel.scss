@@ -1,34 +1,7 @@
 .who-we-are {
     background-color: rgb(249, 255, 255);
-    padding: 5svh 10svw;
+    padding: 5svh 5svw;
     padding-top: 5svh;
-
-    h2 {
-        font-size: 45px;
-        line-height: 50px;
-        font-weight: lighter;
-        margin-bottom: 25px;
-        font-family: "Oswald", sans-serif;
-    }
-
-    p {
-        line-height: 25px;
-        margin-bottom: 25px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-    }
-
-        
-    .opening {
-        font-size: 18px;
-        color: #885A5A;
-        margin-bottom: 0px;
-        line-height: 20px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        font-style: italic;
-    }
 
     .nav-carousel {
         justify-content: center;
@@ -41,11 +14,12 @@
         font-family: "Oswald", sans-serif;
     }
 
-    img {
+    .carousel-img {
         min-width: 90svw;
         max-width: 90svw;
         margin: auto;
-        margin-left: -5svw;
+        background-color: green !important;
+        position: relative;
     }
 }
 
@@ -55,15 +29,26 @@
         justify-content: right;
         text-align: right;
         position: relative;
+        padding: 5svh 10svw;
 
-    h2 {
-        max-width: 40%;
+    .sub-header {
+        max-width: 45%;
         position: absolute;
-        left: 50px;
+        left: 10svw;
         top: 80px;
+        text-align: left;
+
+        .second {
+            margin-left: 40px;
+        }
+
+        .third {
+            margin-left: 20px;
+        }
     }
 
-    p {
+
+    .content-p {
         max-width: 45%;
         margin-left: 55%;
         font-size: 10px;
@@ -76,7 +61,6 @@
         max-width: 35%;
         text-align: left;
         font-size: 15px;
-        margin-left: 60px;
         top: 100px;
     }
 
@@ -86,8 +70,9 @@
         font-size: 10px;
     }
 
-    img {
-        min-width: 80svw;
+    .carousel-img {
+        min-width: 100%;
+        max-width: 100%;
         margin: auto;
         margin-left: -5svw;
     }

@@ -9,6 +9,7 @@ import About from "./pages/about/about";
 import Interior from "./pages/interior/interior"
 import Exterior from "./pages/exterior/exterior";
 import Patio from "./pages/patios/patios";
+import Contact from "./pages/contact/contact"
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path={"/interior"} element={<Interior/>} />
         <Route path={"/exterior"} element={<Exterior/>} />
         <Route path={"/patios"} element={<Patio/>} />
+        <Route path={"/contact"} element={<Contact/>} />
       </Routes>
       
       <Footer />

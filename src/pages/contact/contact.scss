@@ -1,0 +1,77 @@
+#contact-page {
+    background-color: white;
+    padding: 5svh 10svw;
+    padding-top: 100px;
+
+    h1 {
+        margin-bottom: 20px;
+        font-family: "Oswald", sans-serif;
+        color: #353A47;
+        font-size: 50px;
+    }
+
+    .email-sent {
+        h2 {
+            font-family: "Oswald", sans-serif;
+            margin-top: 30px;
+            font-size: 20px;
+            text-align: center;
+            font-weight: lighter;
+            line-height: 30px;
+            color: #885A5A;
+        }
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            font-family: "Oswald", sans-serif;
+            font-size: 17px;
+            color: #885A5A;
+            margin-bottom: 15px;
+        }
+
+        input, select {
+            padding: 15px;
+            margin-bottom: 20px;
+            min-height: 55px;
+            max-height: 55px;
+            border: solid rgb(222, 222, 222);
+            border-radius: 5px;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+
+            span {
+                display: flex;
+                vertical-align: middle;
+                max-height: fit-content;
+                align-items: center;
+                gap: 5px;
+
+                label, input {
+                    margin: 0;
+                    padding: 0;
+                    font-weight: 100;
+                }
+            }
+        }
+
+        .submit-button {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            min-height: 55px;
+            max-height: 55px;
+            background-color: #885A5A;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            color: white;
+            font-family: "Oswald", sans-serif;
+        }
+    }
+}
