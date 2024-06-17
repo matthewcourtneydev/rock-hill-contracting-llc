@@ -7,14 +7,14 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
 import { BiSolidUpArrowAlt } from "react-icons/bi";
+import logo from "../../imgs/logo.png"
 
 
-
-const Footer = () => {
+const Footer = (props) => {
   return (
     <footer id="footer">
       <div className="logo">
-        <h3>LOGO</h3>
+        <img src={logo} alt=""/>
       </div>
       <section className="contact">
         <h4>GET IN TOUCH</h4>
@@ -54,10 +54,10 @@ const Footer = () => {
       <section className="services">
         <h4>SERVICES</h4>
         <ul>
-            <li><a href="#">Exterior</a></li>
-            <li><a href="#">Interior</a></li>
-            <li><a href="#">Decks and Patios</a></li>
-            <li><a href="#">Irrigation</a></li>
+            <li onClick={() => props.navigateTo("/exterior")}>Exterior</li>
+            <li onClick={() => props.navigateTo("/interior")}>Interior</li>
+            <li onClick={() => props.navigateTo("/porches")}>Decks and Patios</li>
+            <li onClick={() => props.navigateTo("")}>Irrigation</li>
         </ul>
       </section>
       <section className="socials">

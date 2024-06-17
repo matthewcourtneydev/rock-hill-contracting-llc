@@ -1,6 +1,6 @@
 #nav-menu {
     background-color: #353A47;
-    padding: 5svh 10svw;
+    padding: 5svh 5svw;
     max-height: 100svh;
     min-height: 100svh;
     max-width: 100svw;
@@ -29,6 +29,10 @@
             font-weight: 200;
             margin: 20px 0px
         }
+
+        .active {
+            color: #f7c1bb;
+        }
     }
 }
 
@@ -38,12 +42,12 @@
         justify-content: space-between;
         img {
             display: inline;
-            max-width: 35svw;
-            min-width: 35svw;
+            max-width: 45svw;
+            min-width: 45svw;
             height: auto;
             max-height: 400px;
             min-height: 400px;
-            margin-top: 35px;
+            margin-top: 7svh;
         }
     }
 }

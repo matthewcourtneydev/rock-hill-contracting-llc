@@ -1,0 +1,49 @@
+#testimonials-page {
+    background-color: #353a47;
+    color: white;
+    padding: 5svh 5svw;
+    padding-top: 80px;
+    overflow-x: hidden;
+  
+    h1 {
+      flex-direction: column;
+      color: rgb(249, 255, 255);
+      margin-bottom: 20px;
+    }
+
+    .test-img {
+        max-width: 100svw;
+        min-width: 100svw;
+        margin-left: -5svw;
+    }
+
+    .opening {
+        color: #f7c1bb;
+    }
+
+    .content-p {
+        color: white;
+    }
+}
+
+/* ipad Mini Portrait */
+@media only screen and (min-width: 768px) {
+    #testimonials-page {
+        .container {
+            display: flex;
+            justify-content: space-between;
+            .test-img {
+                max-width: 40%;
+                min-width: 40%;
+                max-height: 250px;
+                min-height: auto;
+                margin-left: 0;
+                margin-top: 60px;
+            }
+
+            .right {
+                max-width: 45%;
+            }
+        }
+    }
+}

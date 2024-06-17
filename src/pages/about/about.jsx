@@ -3,6 +3,7 @@ import "./about.scss";
 import drywall from "../../imgs/hello.jpeg";
 import patio from "../../imgs/patio.jpeg";
 import hardscape from "../../imgs/hardscape.jpeg";
+import logo from "../../imgs/logo.png";
 
 import { FaHeart } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
@@ -14,7 +15,12 @@ const About = () => {
       <h2 className="sub-header">GET TO KNOW THE TEAM</h2>
       <img src={drywall} alt="" />
       <p className="first-paragraph content-p">
-      De Jesus Contracting is a full-service construction company dedicated to turning your home improvement dreams into reality. Specializing in framing, siding, windows, roofing, patios, concrete work, hardscape, irrigation, drywall, painting, flooring, and porches/decks, we combine field expertise, professional management, and outstanding customer service to ensure smooth and affordable home renovations.
+        De Jesus Contracting is a full-service construction company dedicated to
+        turning your home improvement dreams into reality. Specializing in
+        framing, siding, windows, roofing, patios, concrete work, hardscape,
+        irrigation, drywall, painting, flooring, and porches/decks, we combine
+        field expertise, professional management, and outstanding customer
+        service to ensure smooth and affordable home renovations.
       </p>
       <button className="get-started-btn">Get Started</button>
 
@@ -35,7 +41,9 @@ const About = () => {
 
       <section className="difference">
         <p className="opening">/ The De Jesus Difference</p>
-        <h2 className="sub-header">WHAT MAKES <span>US DIFFERENT</span></h2>
+        <h2 className="sub-header">
+          WHAT MAKES <span>US DIFFERENT</span>
+        </h2>
         <img className="inner-image" src={hardscape} alt="" />
         <div className="container">
           <div className="bullet-container">

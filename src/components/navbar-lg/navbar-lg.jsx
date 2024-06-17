@@ -23,7 +23,7 @@ const NavbarLg = (props) => {
         )}
       </span>
 
-      <button>START MY PROJECT</button>
+      <button onClick={() => props.navigateTo("/contact")}>START MY PROJECT</button>
       <span className="right">
       <span><FaFacebookF /></span><span><FaXTwitter /></span><span><AiFillInstagram /></span>
       </span>

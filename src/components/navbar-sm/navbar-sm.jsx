@@ -22,7 +22,7 @@ const NavbarSm = (props) => {
         )}
       </span>
 
-      <button onClick={() => navigate("/contact")}>START MY PROJECT</button>
+      <button onClick={() => props.navigateTo("/contact")}>START MY PROJECT</button>
     </nav>
   );
 };
