@@ -22,19 +22,19 @@ const Footer = () => {
           <span className="icon">
             <FaLocationDot />
           </span>
-          <p>123 Main St Rock Hill, SC 12345</p>
+          <p className="content-p">123 Main St Rock Hill, SC 12345</p>
         </div>
         <div className="container">
           <span className="icon">
             <FaPhoneAlt />
           </span>
-          <p>(704) 123-1111</p>
+          <p className="content-p">(704) 123-1111</p>
         </div>
         <div className="container">
           <span className="icon">
             <MdEmail />
           </span>
-          <p>email@gmail.com</p>
+          <p className="content-p">email@gmail.com</p>
         </div>
       </section>
       <section className="contact-form">
@@ -68,7 +68,7 @@ const Footer = () => {
       </section>
       <button className="back-to-top">BACK TO TOP <BiSolidUpArrowAlt /></button>
       <div className="ownership">
-        <p>
+        <p className="content-p">
           Copyright 2024 | De Jesus Contracting LLC All Rights Reserved SC
           License 111111
         </p>

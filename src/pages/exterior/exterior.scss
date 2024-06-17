@@ -1,53 +1,48 @@
 #exterior-page {
     background-color: #353a47;
     color: white;
-    padding: 5svh 10svw;
+    padding: 5svh 5svw;
     padding-top: 80px;
     overflow-x: hidden;
   
     h1 {
       flex-direction: column;
       color: rgb(249, 255, 255);
-      font-size: 65px;
-      line-height: 65px;
-      font-family: "Oswald", sans-serif;
-      margin-bottom: 20px;
     }
   
     img {
       max-width: 100svw;
       min-width: 100svw;
-      margin-left: -10svw;
+      margin-left: -5svw;
     }
   
-    p {
+    .content-p {
       margin-top: 20px;
-      line-height: 25px;
-      font-family: "Roboto", sans-serif;
-      font-weight: 300;
-      font-style: normal;
+      color: white;
     }
 
   
-    .get-started-btn {
-      background: none;
-      color: rgb(249, 255, 255);
-      border: solid 1px #f7c1bb;
-      padding: 10px 20px;
-      margin-top: 30px;
-      font-family: "Oswald", sans-serif;
-      margin-bottom: 30px;
-    }
+    // .get-started-btn {
+    //   background: none;
+    //   color: rgb(249, 255, 255);
+    //   border: solid 1px #f7c1bb;
+    //   padding: 10px 20px;
+    //   margin-top: 30px;
+    //   font-family: "Oswald", sans-serif;
+    //   margin-bottom: 30px;
+    // }
 
-    h2 {
-        margin-top: 50px;
-        color: #f7c1bb;
-        font-size: 30px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        font-style: italic;
-      }
-
+    // h2 {
+    //     margin-top: 50px;
+    //     color: #f7c1bb;
+    //     font-size: 30px;
+    //     font-family: "Roboto", sans-serif;
+    //     font-weight: 300;
+    //     font-style: italic;
+    //   }
+.lite {
+  color: #f7c1bb;
+}
       .img-bg {
         margin-top: 30px;
       }
@@ -57,8 +52,8 @@
         min-width: 100svw;
         margin-top: -5px;
         max-width: 100svw;
-        margin-left: -10svw;
-        padding: 1svh 10svw;
+        margin-left: -5svw;
+        padding: 1svh 5svw;
     
         h2 {
           font-size: 45px;
@@ -71,8 +66,8 @@
         }
     
         .inner-image {
-          max-width: 80svw;
-          min-width: 80svw;
+          max-width: 90svw;
+          min-width: 90svw;
           margin: auto;
         }
     
@@ -89,7 +84,7 @@
               max-height: 70px;
               max-width: 70px;
               border-radius: 50%;
-              background-color: green;
+              background-color: #885A5A;
               margin-top: 5px;
             }
     
@@ -116,13 +111,15 @@
 @media only screen and (min-width: 768px) {
     #exterior-page {
       position: relative;
+      padding-top: 100px;
   
       h1 {
         order: 0;
-        max-width: 50%;
+        max-width: 45%;
         display: flex;
         position: absolute;
       }
+
       .first-paragraph {
         order: 0;
         max-width: 40%;
@@ -130,9 +127,7 @@
         float: right;
         position: absolute;
         right: 10svw;
-        font-size: 8px;
-        top: 70px;
-        line-height: 10px;
+        top: 100px;
       }
   
       .get-started-btn {
@@ -140,34 +135,28 @@
         position: absolute;
         right: 10svw;
         font-size: 10px;
-        top: 160px;
+        top: 200px;
       }
 
       img {
         margin-top: 200px;
-        max-width: 80svw;
-        min-width: 80svw;
+        max-width: 90svw;
+        min-width: 90svw;
         margin-left: auto;
       }
   
-      h2 {
-        font-size: 15px;
-        margin-top: 110px;
-        color: #f7c1bb;
+      .sub-header {
         margin-bottom: 0px;
-        line-height: 20px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        font-style: italic;
+
       }
   
       .second-paragraph {
         padding-bottom: 20px;
 
-        p {
+        .content-p {
         font-size: 8px;
         line-height: 10px;
-        max-width: 40%;
+        max-width: 50%;
         padding-left: 20px;
         }
       }
@@ -176,8 +165,8 @@
         max-width: 35svw;
         min-width: 35svw;
         position: absolute;
-        right: 15svw;
-        top: 75svh;
+        right: 7svw;
+        top: 85svh;
       }
   
       .difference {

@@ -1,51 +1,46 @@
 #interior-page {
     background-color: #353a47;
     color: white;
-    padding: 5svh 10svw;
+    padding: 5svh 5svw;
     padding-top: 80px;
     overflow-x: hidden;
   
-    h1 {
-      flex-direction: column;
-      color: rgb(249, 255, 255);
-      font-size: 65px;
-      line-height: 65px;
-      font-family: "Oswald", sans-serif;
-      margin-bottom: 20px;
-    }
+    // h1 {
+    //   flex-direction: column;
+    //   color: rgb(249, 255, 255);
+    //   font-size: 65px;
+    //   line-height: 65px;
+    //   font-family: "Oswald", sans-serif;
+    //   margin-bottom: 20px;
+    // }
   
     img {
       max-width: 100svw;
       min-width: 100svw;
-      margin-left: -10svw;
+      margin-left: -5svw;
     }
   
-    p {
+    .content-p {
+      color: white;
+    }
+
+    .pad20 {
       margin-top: 20px;
-      line-height: 25px;
-      font-family: "Roboto", sans-serif;
-      font-weight: 300;
-      font-style: normal;
     }
 
   
-    .get-started-btn {
-      background: none;
-      color: rgb(249, 255, 255);
-      border: solid 1px #f7c1bb;
-      padding: 10px 20px;
-      margin-top: 30px;
-      font-family: "Oswald", sans-serif;
-      margin-bottom: 30px;
-    }
+    // .get-started-btn {
+    //   background: none;
+    //   color: rgb(249, 255, 255);
+    //   border: solid 1px #f7c1bb;
+    //   padding: 10px 20px;
+    //   margin-top: 30px;
+    //   font-family: "Oswald", sans-serif;
+    //   margin-bottom: 30px;
+    // }
 
-    h2 {
-        margin-top: 50px;
+    .lite {
         color: #f7c1bb;
-        font-size: 30px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        font-style: italic;
       }
 
       .img-bg {
@@ -57,32 +52,23 @@
         min-width: 100svw;
         margin-top: -5px;
         max-width: 100svw;
-        margin-left: -10svw;
-        padding: 1svh 10svw;
+        margin-left: -5svw;
+        padding: 1svh 5svw;
     
         h2 {
-          font-size: 45px;
-          line-height: 50px;
-          font-weight: lighter;
           margin-bottom: 25px;
           margin-top: 0px;
           color: #353a47;
-          font-family: "Oswald", sans-serif;
         }
     
         .opening {
-          font-size: 18px;
-          color: #f7c1bb;
+          color: #885A5A;
           margin-bottom: 0px;
-          line-height: 20px;
-          font-family: "Roboto", sans-serif;
-          font-weight: 300;
-          font-style: italic;
         }
     
         .inner-image {
-          max-width: 80svw;
-          min-width: 80svw;
+          max-width: 90svw;
+          min-width: 90svw;
           margin: auto;
         }
     
@@ -99,7 +85,7 @@
               max-height: 70px;
               max-width: 70px;
               border-radius: 50%;
-              background-color: green;
+              background-color: #885A5A;
               margin-top: 5px;
             }
     
@@ -126,12 +112,13 @@
 @media only screen and (min-width: 768px) {
     #interior-page {
       position: relative;
+      padding-top: 100px;
   
-      h1 {
+      .sub-header {
         order: 0;
         max-width: 50%;
-        display: flex;
-        position: absolute;
+        // display: flex;
+        // position: absolute;
       }
       .first-paragraph {
         order: 0;
@@ -141,7 +128,7 @@
         position: absolute;
         right: 10svw;
         font-size: 8px;
-        top: 70px;
+        top: 100px;
         line-height: 10px;
       }
   
@@ -154,22 +141,16 @@
       }
 
       img {
-        margin-top: 200px;
-        max-width: 80svw;
-        min-width: 80svw;
+        margin-top: 50px;
+        max-width: 90svw;
+        min-width: 90svw;
         margin-left: auto;
       }
-  
-      h2 {
-        font-size: 15px;
-        margin-top: 110px;
-        color: #f7c1bb;
-        margin-bottom: 0px;
-        line-height: 20px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        font-style: italic;
+
+      .expand {
+        max-width: 80%;
       }
+  
   
       .second-paragraph {
         padding-bottom: 20px;
@@ -177,7 +158,7 @@
         p {
         font-size: 8px;
         line-height: 10px;
-        max-width: 40%;
+        max-width: 50%;
         padding-left: 20px;
         }
       }
@@ -186,14 +167,14 @@
         max-width: 35svw;
         min-width: 35svw;
         position: absolute;
-        right: 15svw;
+        right: 10svw;
         top: 75svh;
       }
   
       .difference {
         position: relative;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
         margin-top: 20px;
   
         h2,
@@ -247,7 +228,7 @@
           padding: 10svh 20svw;
           h1 {
               font-size: 75px;
-              max-width: 30%;
+              max-width: 35%;
               
             }
             .first-paragraph {

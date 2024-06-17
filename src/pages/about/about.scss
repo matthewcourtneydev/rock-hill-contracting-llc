@@ -1,43 +1,48 @@
 #about-page {
   background-color: #353a47;
   color: white;
-  padding: 5svh 10svw;
+  padding: 5svh 5svw;
   padding-top: 80px;
   overflow-x: hidden;
 
-  h1 {
-    flex-direction: column;
+  .sub-header {
     color: rgb(249, 255, 255);
-    font-size: 65px;
-    line-height: 65px;
-    font-family: "Oswald", sans-serif;
-    margin-bottom: 20px;
+    max-width: 40%;
+  }
+
+  .content-p {
+    color: rgb(249, 255, 255);
+    margin-top: 20px;
+  }
+
+  .opening {
+    color: #f7c1bb;
   }
 
   img {
     max-width: 100svw;
     min-width: 100svw;
-    margin-left: -10svw;
+    margin-left: -5svw;
   }
 
-  p {
-    margin-top: 20px;
-    line-height: 25px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
+  // p {
+  //   margin-top: 20px;
+  //   line-height: 25px;
+  //   font-family: "Roboto", sans-serif;
+  //   font-weight: 300;
+  //   font-style: normal;
+  // }
 
 
-  h2 {
-    margin-top: 50px;
-    color: #f7c1bb;
-    font-family: "Roboto", sans-serif;
-    font-size: 30px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
+  // h2 {
+  //   margin-top: 50px;
+  //   color: #f7c1bb;
+  //   font-family: "Roboto", sans-serif;
+  //   font-size: 30px;
+  //   font-family: "Roboto", sans-serif;
+  //   font-weight: 300;
+  //   font-style: italic;
+  // }
 
   .img-bg {
     margin-top: 30px;
@@ -48,17 +53,16 @@
     min-width: 100svw;
     margin-top: -5px;
     max-width: 100svw;
-    margin-left: -10svw;
+    margin-left: -5svw;
     padding: 1svh 10svw;
 
-    h2 {
-      font-size: 45px;
-      line-height: 50px;
-      font-weight: lighter;
-      margin-bottom: 25px;
-      margin-top: 0px;
+    .sub-header {
       color: #353a47;
-      font-family: "Oswald", sans-serif;
+      max-width: 80%;
+    }
+
+    .opening {
+      color: #885a5a;
     }
 
     .inner-image {
@@ -80,21 +84,28 @@
           max-height: 70px;
           max-width: 70px;
           border-radius: 50%;
-          background-color: green;
+          background-color: #885a5a;
           margin-top: 5px;
+          font-size: 30px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 20px;
+          padding-bottom: 20px;
         }
 
         .bullet-content {
           padding-left: 10px;
           h4 {
             margin-bottom: 0px;
-            color: black;
+            color: #353a47;
+            font-family: "Oswald", sans-serif;
+            font-weight: 600;
           }
 
           p {
             line-height: 14px;
             font-size: 12px;
-            color: black;
+            color: #353a47;
             margin-top: 5px;
           }
         }
@@ -107,13 +118,17 @@
 @media only screen and (min-width: 768px) {
   #about-page {
     position: relative;
+    padding: 100px 5svw;
+    padding-bottom: 0px;
+    
 
     h1 {
       order: 0;
-      max-width: 50%;
+      max-width: 45%;
       display: flex;
       position: absolute;
     }
+
     .first-paragraph {
       order: 0;
       max-width: 40%;
@@ -121,9 +136,7 @@
       float: right;
       position: absolute;
       right: 10svw;
-      font-size: 8px;
-      top: 70px;
-      line-height: 10px;
+      top: 100px;
     }
 
     .get-started-btn {
@@ -131,87 +144,152 @@
       position: absolute;
       right: 10svw;
       font-size: 10px;
-      top: 160px;
+      top: 180px;
     }
 
     img {
-      margin-top: 200px;
-      max-width: 80svw;
-      min-width: 80svw;
+      margin-top: 80px;
+      max-width: 90svw;
+      min-width: 90svw;
       margin-left: auto;
+      margin-bottom: 40px;
     }
 
-    h2 {
-      font-size: 15px;
-      margin-top: 110px;
-      color: #f7c1bb;
+    .sub-header {
       margin-bottom: 0px;
-      line-height: 20px;
-      font-family: "Roboto", sans-serif;
-      font-weight: 300;
-      font-style: italic;
+
     }
 
     .second-paragraph {
+      padding-bottom: 80px;
+      max-width: 50%;
+
+      .content-p {
       font-size: 8px;
       line-height: 10px;
-      max-width: 40%;
+      max-width: 50%;
       padding-left: 20px;
-      padding-bottom: 150px;
-      background-color: green;
+      }
     }
 
-    .img-bg {
-      max-width: 35svw;
-      min-width: 35svw;
+    .about-image-2 {
+      max-width: 32svw;
+      min-width: 32svw;
       position: absolute;
-      right: 15svw;
-      top: 75svh;
+      right: 7svw;
+      top: 59svh;
     }
+
+    // .first-paragraph {
+    //   display: flex;
+    //   float: right;
+    //   position: absolute;
+    //   right: 24svw;
+    //   font-size: 8px;
+    //   top: 100px;
+    // }
+
+    // .get-started-btn {
+    //   background: none;
+    //   position: absolute;
+    //   right: 10svw;
+    //   top: 15.5svh;
+    // }
+
+    // img {
+    //   max-width: 80svw;
+    //   min-width: 80svw;
+    //   margin: auto;
+    //   margin-top: 100px;
+    // }
+
+    // .content-p {
+    //   max-width: 30%;
+    // }
+
+    // // h2 {
+    // //   font-size: 15px;
+    // //   margin-top: 110px;
+    // //   color: #f7c1bb;
+    // //   margin-bottom: 0px;
+    // //   line-height: 20px;
+    // //   font-family: "Roboto", sans-serif;
+    // //   font-weight: 300;
+    // //   font-style: italic;
+    // // }
+
+    // .second-paragraph {
+    //   font-size: 8px;
+    //   line-height: 10px;
+    //   max-width: 40%;
+    //   padding-left: 20px;
+    //   padding-bottom: 150px;
+    // }
+
+    // .about-image-2 {
+    //   max-width: 32svw;
+    //   min-width: 32svw;
+    //   position: absolute;
+    //   right: 10svw;
+    //   top: 52svh;
+    // }
 
     .difference {
       position: relative;
       padding-top: 50px;
-      padding-bottom: 50px;
+      padding-bottom: 15px;
+      margin-left: -5svw;
 
-      h2,
+      .sub-header,
       .opening,
       .inner-image {
         position: absolute;
         right: 10svw;
       }
 
-      h2 {
+      .sub-header {
         text-align: center;
         max-width: 40%;
-        top: 50px;
+        top: 35px;
+        display: flex;
+        flex-direction: column;
+        padding-right: 0px;
+        padding-left: 20px;
+
+        span {
+          padding-right: 50px !important;
+        }
       }
 
       .opening {
         text-align: center;
         max-width: 40%;
-        right: 18svw;
+        right: 22svw;
         top: 5px;
       }
 
       .inner-image {
-        max-width: 40svw;
-        min-width: 40svw;
+        max-width: 35svw;
+        min-width: 35svw;
         margin: auto;
         top: 170px;
       }
 
       .container {
-        max-width: 40%;
+        max-width: 55%;
+        margin-top: -40px;
 
         .bullet-container {
           h4 {
             font-size: 14px;
           }
           .bullet-content {
-            p {
+            max-width: 220px;
+            min-width: 220px;
+            .content-p {
               font-size: 10px;
               line-height: 12px;
+              max-width: none;
             }
           }
         }

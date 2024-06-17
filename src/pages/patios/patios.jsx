@@ -8,29 +8,16 @@ import deck from "../../imgs/deck.jpeg";
 const Patio = () => {
   return (
     <div className="page" id="patios-page">
-      <h1>Patios and Porches</h1>
+      <h1 className="sub-header">Patios and Porches</h1>
       <img src={deck} alt="" />
-      <p className="first-paragraph">
-        At De Jesus Contracting, we excel in creating beautiful and functional
-        outdoor living spaces, including decks, patios, and porches. Our team of
-        skilled craftsmen brings a wealth of experience and creativity to each
-        project, ensuring that your outdoor area is tailored to your specific
-        needs and aesthetic preferences. Whether you envision a spacious deck
-        for entertaining, a cozy patio for relaxing, or a charming porch to
-        enhance your home's curb appeal, we use high-quality materials and
-        innovative design solutions to bring your vision to life. Our commitment
-        to excellence and attention to detail ensures that every structure we
-        build is not only visually appealing but also durable and safe,
-        providing you with an inviting outdoor space to enjoy for years to come.
-        At De Jesus Contracting, we are dedicated to transforming your outdoor
-        living dreams into reality with personalized service and exceptional
-        craftsmanship.
+      <p className="first-paragraph content-p">
+        At De Jesus Contracting, we excel in creating beautiful and functional outdoor living spaces, including decks, patios, and porches. Our skilled craftsmen use high-quality materials and innovative designs to tailor each project to your needs and preferences. Committed to excellence and attention to detail, we ensure every structure is visually appealing, durable, and safe, providing inviting outdoor spaces for years to come.
       </p>
       <button className="get-started-btn">Get Started</button>
-
-      <h2>HOW WE CAN HELP</h2>
+      <p className="opening lite">/ Relaxation Redefined</p>
+      <h2 className="sub-header">FIND AN ESCAPE IN YOUR OWN BACKYARD</h2>
       <span className="second-paragraph">
-        <p>
+        <p className="content-p">
           Our deck-building services are designed to create versatile spaces
           perfect for hosting gatherings, dining al fresco, or simply enjoying
           the outdoors. We work with a variety of materials, including
@@ -38,7 +25,7 @@ const Patio = () => {
           ensure your deck is not only stunning but also built to last.
         </p>
 
-        <p>
+        <p className="content-p">
           When it comes to patios, we offer a range of designs from classic
           stone and brick to modern concrete and pavers. Our expert team will
           help you select the perfect materials and layout to complement your
@@ -46,7 +33,7 @@ const Patio = () => {
           between indoor and outdoor living spaces.
         </p>
 
-        <p>
+        <p className="content-p">
           For porches, we specialize in constructing inviting and functional
           areas that enhance your home's front or back entrance. Whether you're
           looking for a screened-in porch to enjoy the outdoors without the
@@ -54,7 +41,7 @@ const Patio = () => {
           porch to meet your lifestyle and preferences.
         </p>
 
-        <p>
+        <p className="content-p">
           At De Jesus Contracting, we believe that your outdoor spaces should be
           an extension of your home, providing comfort, beauty, and
           functionality. Our dedication to quality workmanship and customer
@@ -66,8 +53,8 @@ const Patio = () => {
       </span>
       <img src={patio} className="img-bg" alt="" />
       <section className="difference">
-        <p className="opening">The De Jesus Difference</p>
-        <h2>WHAT MAKES US DIFFERENT</h2>
+        <p className="opening">/ We're here to help</p>
+        <h2 className="sub-header">WHAT MAKES US DIFFERENT</h2>
         <img className="inner-image" src={hardscape} alt="" />
         <div className="container">
           <div className="bullet-container">

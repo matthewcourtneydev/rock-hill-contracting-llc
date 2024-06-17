@@ -14,6 +14,12 @@
     z-index: 10;
     color: rgb(249, 255, 255);
     font-family: "Oswald", sans-serif;
+    z-index: 15;
+    display: flex;
+
+    img {
+        display: none;
+    }
 
     ul {
         list-style: none;
@@ -22,6 +28,22 @@
             font-size: 37px;
             font-weight: 200;
             margin: 20px 0px
+        }
+    }
+}
+
+/* ipad Mini Portrait */
+@media only screen and (min-width:768px) {
+    #nav-menu {
+        justify-content: space-between;
+        img {
+            display: inline;
+            max-width: 35svw;
+            min-width: 35svw;
+            height: auto;
+            max-height: 400px;
+            min-height: 400px;
+            margin-top: 35px;
         }
     }
 }

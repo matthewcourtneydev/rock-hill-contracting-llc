@@ -1,6 +1,7 @@
 import React from 'react';
 import "./nav-menu.scss";
 import { useNavigate } from 'react-router-dom';
+import img from "../../imgs/drywall-team.jpeg"
 
 const NavMenu = (props) => {
     const navigate = useNavigate();
@@ -11,6 +12,7 @@ const NavMenu = (props) => {
     }
     return (
         <section id="nav-menu" className="nav-menu">
+            <img src={img} alt="" />
             <ul>
                 <li className="nav-menu-item" onClick={() => changePage("/")}>HOME</li>
                 <li className="nav-menu-item" onClick={() => changePage("/about")}>ABOUT</li>

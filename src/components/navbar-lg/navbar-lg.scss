@@ -6,15 +6,17 @@
 @media only screen and (min-width:768px) {
     #nav-lg {
         display: flex;
-        max-width: 50%;
-        min-width: 50%;
+        max-width: 45%;
+        min-width: 47%;
         z-index: 200;
         position: absolute;
         right: 0;
-        top: 30px;
+        top: 50px;
         justify-content: space-between;
-        max-height: 20px;
+        max-height: 25px;
         color: white;
+        font-family: "Oswald", sans-serif;
+        z-index: 20;
 
         span {
             display: flex;
@@ -22,48 +24,45 @@
             align-items: center;
     
             p {
-                margin-left: 1svw;
                 vertical-align: middle;
                 margin: 0 !important;
             }
     
             .icon {
-                font-size: 17px;
+                font-size: 12px;
                 vertical-align: middle;
                 padding-right: 2px;
+                margin-right: 5px;
             }
-        }
-    
-
-        .left, .right, button {
-            min-width: 20%;
         }
 
         .left {
             display: flex;
             text-align: right;
             justify-content: right;
+            font-size: 10px;
             
         }
 
         button {
             color: white;
-            font-size: 8px;
+            font-size: 7px;
             padding: 5px 10px;
             background: none;
             border: solid 1px white;
+            font-family: "Oswald", sans-serif;
         }
 
         .right {
             justify-content: center;
-            padding-right: 70px;
+            padding-right: 7svw;
             span {
                 background-color: white;
                 color: black;
-                padding: 5px;
-                font-size: 8px;
+                padding: 4px;
+                font-size: 6px;
                 border-radius: 50%;
-                margin-right: 5px;
+                margin-right: 7px;
             }
         }
         
