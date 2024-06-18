@@ -9,4 +9,274 @@
       flex-direction: column;
       color: rgb(249, 255, 255);
     }
+
+    img {
+        max-width: 100svw;
+        min-width: 100svw;
+        margin-left: -5svw;
+      }
+    
+      .content-p {
+        color: white;
+      }
+
+
+    .pad20 {
+        margin-top: 20px;
+      }
+  
+
+      .lite {
+        color: #f7c1bb;
+      }
+
+      .img-bg {
+        margin-top: 30px;
+      }
+
+      .difference {
+        background-color: white;
+        min-width: 100svw;
+        margin-top: -5px;
+        max-width: 100svw;
+        margin-left: -5svw;
+        padding: 1svh 5svw;
+    
+        h2 {
+          margin-bottom: 25px;
+          margin-top: 0px;
+          color: #353a47;
+        }
+    
+        .opening {
+          color: #885A5A;
+          margin-bottom: 0px;
+        }
+    
+        .inner-image {
+          max-width: 90svw;
+          min-width: 90svw;
+          margin: auto;
+        }
+    
+        .container {
+          .bullet-container {
+            min-height: fit-content;
+            display: flex;
+            margin-top: 15px;
+            margin-bottom: 15px;
+    
+            .bullet {
+              min-height: 70px;
+              min-width: 70px;
+              max-height: 70px;
+              max-width: 70px;
+              border-radius: 50%;
+              background-color: #885A5A;
+              margin-top: 5px;
+            }
+    
+            .bullet-content {
+              padding-left: 10px;
+              h4 {
+                margin-bottom: 0px;
+                color: black;
+              }
+    
+              p {
+                line-height: 14px;
+                font-size: 12px;
+                color: black;
+                margin-top: 5px;
+              }
+            }
+          }
+        }
+      }
 }
+
+/* ipad Mini Portrait */
+@media only screen and (min-width: 768px) {
+    #hardscape-page {
+      position: relative;
+      padding-top: 100px;
+  
+      .sub-header {
+        order: 0;
+        max-width: 50%;
+        // display: flex;
+        // position: absolute;
+      }
+      .first-paragraph {
+        order: 0;
+        max-width: 40%;
+        display: flex;
+        float: right;
+        position: absolute;
+        right: 10svw;
+        font-size: 8px;
+        top: 100px;
+        line-height: 10px;
+      }
+  
+      .get-started-btn {
+        background: none;
+        position: absolute;
+        right: 10svw;
+        font-size: 10px;
+        top: 160px;
+      }
+
+      img {
+        margin-top: 50px;
+        max-width: 90svw;
+        min-width: 90svw;
+        margin-left: auto;
+      }
+
+      .expand {
+        max-width: 80%;
+      }
+  
+  
+      .second-paragraph {
+        padding-bottom: 20px;
+
+        p {
+        font-size: 8px;
+        line-height: 10px;
+        max-width: 50%;
+        padding-left: 20px;
+        }
+      }
+  
+      .img-bg {
+        max-width: 35svw;
+        min-width: 35svw;
+        position: absolute;
+        right: 10svw;
+        top: 90svh;
+      }
+  
+      .difference {
+        position: relative;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin-top: 20px;
+  
+        h2,
+        .opening,
+        .inner-image {
+          position: absolute;
+          right: 10svw;
+        }
+  
+        h2 {
+          text-align: center;
+          max-width: 40%;
+          top: 50px;
+        }
+  
+        .opening {
+          text-align: center;
+          max-width: 40%;
+          right: 18svw;
+          top: 5px;
+        }
+  
+        .inner-image {
+          max-width: 40svw;
+          min-width: 40svw;
+          margin: auto;
+          top: 170px;
+        }
+  
+        .container {
+          max-width: 40%;
+  
+          .bullet-container {
+            h4 {
+              font-size: 14px;
+            }
+            .bullet-content {
+              p {
+                font-size: 10px;
+                line-height: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 1224px) {
+      #hardscape-page {
+          padding: 10svh 20svw;
+          h1 {
+              font-size: 75px;
+              max-width: 35%;
+              
+            }
+            .first-paragraph {
+              max-width: 25%;
+              min-width: 25%;
+              right: 20svw;
+              font-size: 10px;
+              top: 50px;
+              line-height: 13px;
+            }
+  
+            .get-started-btn {
+              right: 20svw;
+              top: 180px;
+            }
+  
+            img {
+              max-width: 60svw;
+              min-width: 60svw;
+            }
+  
+            h2 {
+              font-size: 20px;
+              margin-top: 90px;
+            }
+        
+            .second-paragraph {
+              font-size: 10px;
+              line-height: 13px;
+            }
+        
+            .img-bg {
+              max-width: auto;
+              min-width: auto;
+              min-height: 350px;
+              max-height: 350px;
+              position: absolute;
+              right: 22svw;
+              top: 120svh;
+            }
+  
+            .difference {
+              margin-left: -20svw;
+              padding-left: 20svw;
+              padding-right: 20svw;
+  
+              h2 {
+                  right: 20svw;
+              }
+  
+              .opening {
+                  right: 28svw;
+              }
+  
+              .inner-image {
+                  max-width: 30svw;
+                  min-width: 30svw;
+                  margin: auto;
+                  top: 110px;
+                  right: 21svw;
+                }
+            }
+      }
+  }

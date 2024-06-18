@@ -31,8 +31,8 @@ function App() {
   }
   return (
     <div className="App">
+      {isNavMenuOpen ? <NavMenu navigateTo={navigateTo} toggleNavMenu={toggleNavMenu} currentPage={currentPage} /> : <>
       <NavbarSm navigateTo={navigateTo} isNavMenuOpen={isNavMenuOpen} currentPage={currentPage} setCurrentPage={setCurrentPage} toggleNavMenu={toggleNavMenu} />
-      {isNavMenuOpen ? <NavMenu navigateTo={navigateTo} toggleNavMenu={toggleNavMenu} currentPage={currentPage} /> : <></>}
       <NavbarLg navigateTo={navigateTo} isNavMenuOpen={isNavMenuOpen} currentPage={currentPage} setCurrentPage={setCurrentPage} toggleNavMenu={toggleNavMenu}/>
       <Routes>
         <Route path={"/"} element={<Home isNavMenuOpen={isNavMenuOpen} currentPage={currentPage} setCurrentPage={setCurrentPage} toggleNavMenu={toggleNavMenu}/>}/>
@@ -47,6 +47,7 @@ function App() {
       </Routes>
       
       <Footer navigateTo={navigateTo}/>
+      </>}
     </div>
   );
 }

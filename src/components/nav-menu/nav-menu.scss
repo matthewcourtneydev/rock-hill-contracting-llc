@@ -17,6 +17,12 @@
     z-index: 15;
     display: flex;
 
+    #nav-sm {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
     img {
         display: none;
     }
@@ -40,6 +46,8 @@
 @media only screen and (min-width:768px) {
     #nav-menu {
         justify-content: space-between;
+
+
         img {
             display: inline;
             max-width: 45svw;

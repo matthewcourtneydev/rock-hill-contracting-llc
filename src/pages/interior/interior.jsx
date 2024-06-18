@@ -54,7 +54,7 @@ const Interior = () => {
       <img src={interior2} className="img-bg" alt="" />
       <section className="difference">
         <p className="opening">
-          The De Jesus Difference
+         / The De Jesus Difference
         </p>
         <h2 className="sub-header">WHAT MAKES US DIFFERENT</h2>
         <img className="inner-image" src={interiorPaint} alt="" />
